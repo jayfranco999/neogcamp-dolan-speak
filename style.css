@@ -1,0 +1,32 @@
+#translate-input{
+    font-size: large;
+    display:block;
+    margin: auto;
+    width:70%;
+    min-height: 10vh;
+    max-height: 20vh;
+    border: double;
+}
+
+#translate-btn{
+    display: block;
+    margin: auto;
+    margin-block: 3rem;
+    padding: 1rem;
+    background-color: yellow;
+    border: double;
+    
+
+}
+
+#translate-output {
+    display: block;
+    margin: auto;
+    box-sizing: border-box;
+    width: 70%;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow:scroll;
+    border: 1px solid black;
+    margin-block:3rem;
+}
