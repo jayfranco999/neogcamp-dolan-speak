@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+:root{
+    --primary: #FBBF24;
+    --secondary:#D97706;
+
+
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Indie Flower', cursive;
+}
+
+
+
 #translate-input{
     font-size: large;
     display:block;
@@ -6,6 +23,7 @@
     min-height: 10vh;
     max-height: 20vh;
     border: double;
+    margin-top: 2rem;
 }
 
 #translate-btn{
@@ -13,7 +31,7 @@
     margin: auto;
     margin-block: 3rem;
     padding: 1rem;
-    background-color: yellow;
+    background-color: var(--primary);
     border: double;
     
 
@@ -29,4 +47,32 @@
     overflow:scroll;
     border: 1px solid black;
     margin-block:3rem;
+}
+nav{
+    padding: 2rem;
+    text-align: center;
+    background-color:var(--primary);
+}
+nav h1{
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+body{
+    margin: 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 3rem;
+    background-color: var(--primary);
+    text-align: center;
+}
+
+
+.ending-text{
+    font-size: large;
+    margin:auto;
 }
