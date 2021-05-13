@@ -64,7 +64,7 @@ body{
 }
 
 footer {
-    position: fixed;
+    position:sticky;
     bottom: 0;
     width: 100%;
     padding: 3rem;
@@ -76,4 +76,11 @@ footer {
 .ending-text{
     font-size: large;
     margin:auto;
+}
+
+img{
+    max-width: 200px;
+    display:block;
+    margin:auto;
+    padding:1rem;
 }
