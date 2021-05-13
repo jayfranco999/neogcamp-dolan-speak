@@ -2,7 +2,7 @@
 
 
 :root{
-    --primary: #FBBF24;
+    --primary: #60A5FA;
     --secondary:#D97706;
 
 
@@ -47,6 +47,7 @@
     overflow:scroll;
     border: 1px solid black;
     margin-block:3rem;
+    border: double;
 }
 nav{
     padding: 2rem;

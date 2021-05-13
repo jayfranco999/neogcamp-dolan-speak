@@ -10,7 +10,7 @@ var translateOutput = document.querySelector("#translate-output");
 
 // var url = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json"
 
-var url = "https://api.funtranslations.com/translate/minion.json"
+var url = "https://api.funtranslations.com/translate/dolan.json"
 
 // REPL URL: https://repl.it/@tanaypratap/lessonfourapi
 
